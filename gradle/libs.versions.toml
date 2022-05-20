@@ -25,3 +25,9 @@ android-application = { id = "com.android.application", version.ref = "gradleplu
 android-library = { id = "com.android.library", version.ref = "gradleplugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+
+# ℹ️ In the [libraries]you will find different ways of expressing a library or a plugin in the TOML file.
+#
+#ℹ️ You can use separators such as -, _, . that will be normalized by Gradle to . in the catalog and allow you to create subsections.
+#
+#ℹ️ Variables defined are CamelCase.
